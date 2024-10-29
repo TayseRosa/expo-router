@@ -11,7 +11,7 @@
 Tayse Rosa
 </a>
 <br>
-🟡 Status do projeto: Em desenvolvimento
+🟢 Status do projeto: Concluido
 
 ---
 <p align="center">
