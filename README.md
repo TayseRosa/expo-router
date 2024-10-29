@@ -33,7 +33,7 @@ Tayse Rosa
 Digite no prompt de comando: git clone https://github.com/TayseRosa/expo-router.git
 cd <nome da pasta do projeto>
 npm install
-npm start
+npx expo start
 ```
 
 
