@@ -25,6 +25,22 @@ export default function Screen(){
                     </Text>
                 </Pressable>
             </Link>
+
+            <Link href='/termos' asChild>
+                <Pressable onPress={handleClick} style={styles.button2}>
+                    <Text>
+                        Página termos de uso
+                    </Text>
+                </Pressable>
+            </Link>
+
+            <Link href='/auth/login' asChild>
+                <Pressable onPress={handleClick} style={styles.button}>
+                    <Text>
+                        Página login
+                    </Text>
+                </Pressable>
+            </Link>
         </View>
     )
 }
@@ -41,6 +57,14 @@ const styles= StyleSheet.create({
         justifyContent:'center',
         alignItems:'center',
         backgroundColor:'#643a3a',
+        borderRadius:6
+    },
+    button2:{
+        width:200,
+        height:40,
+        justifyContent:'center',
+        alignItems:'center',
+        backgroundColor:'#661b1b',
         borderRadius:6
     }
 })

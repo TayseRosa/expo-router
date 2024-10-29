@@ -47,6 +47,7 @@ Histórico de acesso:
 - /forgot
 - /index
 
+Agrupamento de rotas:
 
 
 ## Licença
