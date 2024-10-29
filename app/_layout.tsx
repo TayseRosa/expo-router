@@ -21,8 +21,10 @@ export default function RootLayout(){
         }}>
             <Stack.Screen name="index" options={{ title:'Home' }}/>
             <Stack.Screen name="about" options={{ title:'About' }}/>
+
             <Stack.Screen name="(aux)/termos" options={{ title:'Termos de uso2' }}/>
             <Stack.Screen name="auth/login" options={{ title:'Login' }}/>
+            <Stack.Screen name="profile/[id]" />
         </Stack>
     )
 }

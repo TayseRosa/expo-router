@@ -1,7 +1,8 @@
-import { Link, router, Stack } from "expo-router";
+import { Link, router, Stack, useLocalSearchParams } from "expo-router";
 import { Button, Pressable, StyleSheet, Text, View } from "react-native";
 
-export default function Screen(){
+export default function Screen(){    
+
     const handleClick = () => {
         router.navigate('/about')
     }
@@ -32,6 +33,14 @@ export default function Screen(){
                         Página termos de uso
                     </Text>
                 </Pressable>
+            </Link>
+
+            <Link href='/profile/1' style={styles.button}>
+                Perfil 1
+            </Link>
+
+            <Link href='/profile/2' style={styles.button2}>
+                Perfil 2
             </Link>
 
             <Link href='/auth/login' asChild>
