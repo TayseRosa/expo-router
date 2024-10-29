@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://media.licdn.com/dms/image/v2/D4D12AQGQffAIoR8XjQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1721224326539?e=2147483647&v=beta&t=W4ggamtkvEFy-WZp6Rn-fh6ehyprsL1f5-7ZBnxKbw8" width="160">
 </p>
-<h1 align="center"> Projeto React native com Expo Router [Project start base]</h1>
+<h1 align="center"> Projeto React native com Expo Router <br> [Project start base]</h1>
 
 <p align="center">Este projeto foi desenvolvido para praticar e consolidar os conhecimentos em React Native,utilizando o Expo Router.</p>
 
