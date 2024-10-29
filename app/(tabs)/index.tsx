@@ -12,7 +12,7 @@ export default function Screen(){
     }
 
     return(
-        <View>
+        <View style={styles.container}>
             <Stack.Screen options={{
                 title:'Início',
                 headerRight:()=><Button title="Add" onPress={handleAddButtonRight} />

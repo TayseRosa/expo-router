@@ -7,7 +7,7 @@ export default function Screen(){
     }
 
     return(
-        <View>
+        <View style={styles.container}>
             <Link href='/' asChild>
                 <Pressable onPress={handleClick} style={styles.button}>
                     <Text>
