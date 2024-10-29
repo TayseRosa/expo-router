@@ -1,9 +1,9 @@
 <p align="center">
   <img src="https://brandslogos.com/wp-content/uploads/images/large/nodejs-logo.png" width="160">
 </p>
-<h1 align="center"> Projeto To Do List em NodeJS </h1>
+<h1 align="center"> Projeto React native com Expo Router </h1>
 
-<p align="center">Este projeto foi desenvolvido para praticar e consolidar os conhecimentos em Node.js, criando uma lista de tarefas (To Do List) simples, utilizando o NodeJS.</p>
+<p align="center">Este projeto foi desenvolvido para praticar e consolidar os conhecimentos em React Native,utilizando o Expo Router.</p>
 
 <br>
 🚀 Desenvolvedora:
@@ -21,19 +21,19 @@ Tayse Rosa
 
 ## 🚀 Tecnologias Utilizadas
 <ul>
-    <li>Node.js para a criação do servidor</li>
+    <li>React Native</li>
+    <li>Expo</li>
     <li>Typescript</li>
-    <li>PostgreSql</li>
+    <li>Expo Router</li>
 </ul>
 
 
 ## 🚀 Para você rodar o projeto
 ```
-Digite no prompt de comando: git clone https://github.com/TayseRosa/todo-nodejs.git
+Digite no prompt de comando: git clone https://github.com/TayseRosa/expo-router.git
 cd <nome da pasta do projeto>
 npm install
-npm run start-dev
-No seu navegador: http://localhost:3000
+npm start
 ```
 
 
