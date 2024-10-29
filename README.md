@@ -36,6 +36,18 @@ npm install
 npx expo start
 ```
 
+## 🚀 Anotações importantes
+Navigate = Volta para a ultima tela salva no historico.
+Push = Vai montando o historico das paginas de acesso, se nunca acessou aquela página ele cria no historico. 
+Replace = Substitui a tela(ex: tela de login)
+
+Histórico de acesso:
+- /index
+- /login
+- /forgot
+- /index
+
+
 
 ## Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.

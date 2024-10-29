@@ -1,13 +1,21 @@
-import { Link, router } from "expo-router";
-import { Pressable, StyleSheet, Text, View } from "react-native";
+import { Link, router, Stack } from "expo-router";
+import { Button, Pressable, StyleSheet, Text, View } from "react-native";
 
 export default function Screen(){
     const handleClick = () => {
         router.navigate('/about')
     }
 
+    const handleAddButtonRight = () => {
+        alert('Adicionado com sucesso')
+    }
+
     return(
         <View>
+            <Stack.Screen options={{
+                title:'Início',
+                headerRight:()=><Button title="Add" onPress={handleAddButtonRight} />
+            }} />
             <Text>Opa tudo bem?</Text>
 
             <Link href='/about' asChild>
