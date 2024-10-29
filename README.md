@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://brandslogos.com/wp-content/uploads/images/large/nodejs-logo.png" width="160">
+  <img src="https://media.licdn.com/dms/image/v2/D4D12AQGQffAIoR8XjQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1721224326539?e=2147483647&v=beta&t=W4ggamtkvEFy-WZp6Rn-fh6ehyprsL1f5-7ZBnxKbw8" width="160">
 </p>
 <h1 align="center"> Projeto React native com Expo Router </h1>
 
